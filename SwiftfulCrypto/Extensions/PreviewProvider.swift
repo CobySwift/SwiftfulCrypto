@@ -21,6 +21,8 @@ class DeveloperPreivew {
     static let instance = DeveloperPreivew()
     private init() { }
     
+    let homeVM = HomeViewModel()
+    
     let coin = CoinModel(
        id: "bitcoin",
        symbol: "btc",

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CB17C2902876F5D000BEA6D2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB17C28F2876F5D000BEA6D2 /* Double.swift */; };
+		CB17C2922877101800BEA6D2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB17C2912877101800BEA6D2 /* HomeViewModel.swift */; };
 		CB9615632875CBA20045A524 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9615622875CBA20045A524 /* SwiftfulCryptoApp.swift */; };
 		CB9615652875CBA20045A524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9615642875CBA20045A524 /* ContentView.swift */; };
 		CB96156A2875CBA30045A524 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9615692875CBA30045A524 /* Preview Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CB17C28F2876F5D000BEA6D2 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		CB17C2912877101800BEA6D2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CB96155F2875CBA20045A524 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9615622875CBA20045A524 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		CB9615642875CBA20045A524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		CB9615772875CE2D0045A524 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CB17C2912877101800BEA6D2 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB9615852875DF3A0045A524 /* CoinRowView.swift in Sources */,
+				CB17C2922877101800BEA6D2 /* HomeViewModel.swift in Sources */,
 				CB9615652875CBA20045A524 /* ContentView.swift in Sources */,
 				CB96157A2875CE4B0045A524 /* HomeView.swift in Sources */,
 				CB9615632875CBA20045A524 /* SwiftfulCryptoApp.swift in Sources */,
