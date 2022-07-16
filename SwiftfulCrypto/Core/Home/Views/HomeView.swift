@@ -49,7 +49,7 @@ struct HomeView_Previews: PreviewProvider {
 }
 
 extension HomeView {
-    
+     
     private var homeHeader: some View {
         HStack {
             CircleButtonView(iconName: showPortfolio ? "plus" : "info")
